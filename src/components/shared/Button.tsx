@@ -9,6 +9,7 @@ interface IButtonProps {
   children: string | number | ReactNode;
   className?: string;
   onClick?: () => void;
+  onBlur?: () => void;
 }
 
 const sizes = {
@@ -24,12 +25,12 @@ const colors = {
   link: "bg-transparent hover:text-white focus:text-white",
 };
 
-export const Button = ({ color, size, children, onClick, className }: IButtonProps) => {
+export const Button = ({ color, size, children, onClick, className, onBlur }: IButtonProps) => {
   let colorClasses = colors[color];
   let sizeClasses = sizes[size];
 
   return (
-    <button type="button" onClick={onClick} className={`font-bold font-satoshi ${sizeClasses} ${colorClasses} ${className}`}>
+    <button type="button" onClick={onClick} onBlur={onBlur} className={`font-bold font-satoshi ${sizeClasses} ${colorClasses} ${className}`}>
       {children}
     </button>
   );

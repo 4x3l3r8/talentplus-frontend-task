@@ -10,7 +10,13 @@ export const Mobile: React.FC<{ navLinks: iNavLink[] }> = ({ navLinks }) => {
   const [expanded, setExpanded] = useState(false);
   return (
     <div className="flex md:hidden">
-      <Button onClick={() => setExpanded((prev) => !prev)} size="sm" className="my-auto" color="primary">
+      <Button
+        onBlur={() => setExpanded(false)}
+        onClick={() => setExpanded((prev) => !prev)}
+        size="sm"
+        className="my-auto bg-transparent"
+        color="primary"
+      >
         {expanded ? <RxCross2 /> : <AiOutlineMenu />}
       </Button>
       {expanded && (
