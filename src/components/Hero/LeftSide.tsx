@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export const LeftSide = () => {
   return (
-    <div className="flex flex-col justify-center w-full h-auto gap-4 text-center md:gap-4 md:text-left md:h-full md:w-1/2">
+    <div className="flex flex-col justify-center w-full h-auto gap-4 text-center md:gap-5 md:text-left md:h-full md:w-1/2">
       <h3 className="px-2 text-3xl font-bold text-white md:text-6xl font-clash">Grow your skills to advance your career path </h3>
       <p className="px-2 text-xs text-white capitalize md:mr-48 md:text-base font-satoshi">
         build your future with our quality education. the best and largest all-in-one online tutoring platform in the world
