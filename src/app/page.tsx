@@ -2,6 +2,7 @@ import { Banner } from "@/components/Banner";
 import { Hero } from "@/components/Hero";
 import { Pattern } from "@/components/Hero/Pattern";
 import { Navbar } from "@/components/Navbar";
+import { PopularSection } from "@/components/PopularCoursesSection";
 import { ViewCoursesSection } from "@/components/ViewCoursesSection";
 import { WhyWeAreBestSection } from "@/components/WhyWeAreBestSection";
 import Image from "next/image";
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <ViewCoursesSection />
       <WhyWeAreBestSection />
+      <PopularSection />
     </div>
   );
 }

@@ -3,7 +3,7 @@ import { MdCastForEducation, MdGroups2, MdOutlineSchedule, MdLocalAtm } from "re
 
 export const RightSide = () => {
   return (
-    <div className="grid flex-1 grid-cols-2 grid-rows-2 gap-3 py-24 md:gap-10 md:mr-24">
+    <div className="grid flex-1 grid-cols-2 grid-rows-2 gap-3 md:py-24 md:gap-10 md:mr-24">
       <div className="px-6 py-8 bg-white rounded-lg">
         <div className="flex flex-col gap-4">
           <div className="bg-[#4C7FBD] text-2xl p-4 text-white w-max rounded">

@@ -8,7 +8,7 @@ import lightbulb from "../../../public/images/lightbulb.png";
 
 export const RightSide = () => {
   return (
-    <div className="relative flex w-full md:w-1/2 ">
+    <div className="relative flex w-full lg:w-1/2 ">
       <Image src={heroImage} alt={"lady smiling"} className={"h-full mx-auto"} />
       <Image src={figma} alt={"figma logo"} className={"absolute -ml-9 md:ml-0 top-1/2 scale-50 md:scale-100 md:top-2/3"} />
       <Image src={vscode} alt={"vs code logo"} className={"absolute md:top-9 right-0 top-2 scale-50 md:scale-100 md:right-32"} />

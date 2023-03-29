@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export const FloatingStats = () => {
   return (
-    <div className="absolute flex flex-col px-3 text-center bg-white rounded-lg -left-10 top-1/4">
+    <div className="absolute z-20 flex flex-col px-3 py-1 text-center scale-75 bg-white rounded-lg md:scale-100 -left-10 top-1/4">
       <span className="text-sm font-bold capitalize">255k+ enrolled students</span>
       <div className="flex h-auto px-2 -space-x-4">
         <Image className="inline-block w-10 h-10 md:h-12 md:w-auto" src={Person1} alt={"person"} />
