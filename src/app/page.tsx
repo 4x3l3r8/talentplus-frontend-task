@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Pattern } from "@/components/Hero/Pattern";
 import { Navbar } from "@/components/Navbar";
 import { ViewCoursesSection } from "@/components/ViewCoursesSection";
+import { WhyWeAreBestSection } from "@/components/WhyWeAreBestSection";
 import Image from "next/image";
 import pattern from "../../public/images/pattern.svg";
 
@@ -14,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ViewCoursesSection />
+      <WhyWeAreBestSection />
     </div>
   );
 }
