@@ -10,6 +10,7 @@ import { ViewCoursesSection } from "@/components/ViewCoursesSection";
 import { WhyWeAreBestSection } from "@/components/WhyWeAreBestSection";
 import Image from "next/image";
 import pattern from "../../public/images/pattern.svg";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Testimonials />
       <JoinUs />
       <FaqSection />
+      <Footer />
     </div>
   );
 }
