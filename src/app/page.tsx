@@ -1,4 +1,5 @@
 import { Banner } from "@/components/Banner";
+import { FaqSection } from "@/components/FAQSection";
 import { Hero } from "@/components/Hero";
 import { Pattern } from "@/components/Hero/Pattern";
 import { JoinUs } from "@/components/JoinUs";
@@ -22,6 +23,7 @@ export default function Home() {
       <PopularSection />
       <Testimonials />
       <JoinUs />
+      <FaqSection />
     </div>
   );
 }
