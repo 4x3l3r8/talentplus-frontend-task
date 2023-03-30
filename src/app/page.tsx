@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Pattern } from "@/components/Hero/Pattern";
 import { Navbar } from "@/components/Navbar";
 import { PopularSection } from "@/components/PopularCoursesSection";
+import { Testimonials } from "@/components/Testimonials";
 import { ViewCoursesSection } from "@/components/ViewCoursesSection";
 import { WhyWeAreBestSection } from "@/components/WhyWeAreBestSection";
 import Image from "next/image";
@@ -18,6 +19,7 @@ export default function Home() {
       <ViewCoursesSection />
       <WhyWeAreBestSection />
       <PopularSection />
+      <Testimonials />
     </div>
   );
 }

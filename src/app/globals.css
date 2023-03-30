@@ -4,3 +4,6 @@
 
 @import url("../../public/fonts/SatoshiWeb/css/satoshi.css");
 @import url("../../public/fonts/ClashDisplayWeb/css/clash-display.css");
+
+@import url("~slick-carousel/slick/slick.css");
+@import url("~slick-carousel/slick/slick-theme.css");
