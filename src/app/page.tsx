@@ -1,6 +1,7 @@
 import { Banner } from "@/components/Banner";
 import { Hero } from "@/components/Hero";
 import { Pattern } from "@/components/Hero/Pattern";
+import { JoinUs } from "@/components/JoinUs";
 import { Navbar } from "@/components/Navbar";
 import { PopularSection } from "@/components/PopularCoursesSection";
 import { Testimonials } from "@/components/Testimonials";
@@ -20,6 +21,7 @@ export default function Home() {
       <WhyWeAreBestSection />
       <PopularSection />
       <Testimonials />
+      <JoinUs />
     </div>
   );
 }

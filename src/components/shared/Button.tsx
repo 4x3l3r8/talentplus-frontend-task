@@ -30,7 +30,7 @@ export const Button = ({ color, size, children, onClick, className, onBlur }: IB
   let sizeClasses = sizes[size];
 
   return (
-    <button type="button" onClick={onClick} onBlur={onBlur} className={`font-bold font-satoshi ${sizeClasses} ${colorClasses} ${className}`}>
+    <button type="button" onClick={onClick} onBlur={onBlur} className={`font-bold capitalize font-satoshi ${sizeClasses} ${colorClasses} ${className}`}>
       {children}
     </button>
   );
